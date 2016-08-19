@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.itcast.findimage.MainActivity" >
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://paper.fynews.net/yzwb/20141021/3bdf050c07d97edec4603a828bbf9b94.jpg"
+        android:hint="请输入网址" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="查看"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
